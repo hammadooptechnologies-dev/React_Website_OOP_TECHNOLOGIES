@@ -1,0 +1,40 @@
+/* ✅ 1. Import Google Fonts FIRST */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* ✅ Import fonts FIRST */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ✅ Then import Tailwind */
+@import "tailwindcss";
+
+
+/* ✅ 3. Then define your theme */
+@theme {
+  --font-sans: "Poppins", sans-serif;
+  --font-lato: "Lato", sans-serif;    /* Custom Lato font */
+}
+
+/* ✅ 4. Finally, your custom styles */
+body {
+  font-family: var(--font-sans);
+}
+.lato-font {
+  font-family: var(--font-lato);
+}
+
+.custom-shadow{
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 15px, rgba(0, 0, 0, 0.137) 0px 4px 4px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-in-out;
+}
