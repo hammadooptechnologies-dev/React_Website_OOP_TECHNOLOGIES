@@ -12,11 +12,11 @@ const tabData = [
     heading: "Build a Strong Customer Retention Strategy",
     content: (
       <>
-        <p className="text-[15px] text-[#656565] mb-[10px]">
-          Maximizing customer retention and expansion refers to the strategy of keeping existing customers engaged with a business and encouraging them to continue using its products or services, while also identifying opportunities to increase their level of engagement and spend.
+        <p className="text-[15px] text-[#656565] mb-2.5">
+          Maximizing customer retention and expansion refers to the strategy of keeping existing customers engaged with a business and encouraging them to continue using its products or services, while also identifying opportunities to increase their level of engagement and spend. This approach is critical for any business that wants to build a loyal customer base and achieve sustainable growth over the long term.
         </p>
-        <p className="text-[15px] text-[#656565] mb-[10px]">
-          One key aspect of maximizing customer retention and expansion is developing a deep understanding of customers’ needs, preferences, and behaviors. This involves collecting and analyzing data on customer interactions with the business, as well as soliciting feedback and conducting research to better understand their needs and motivations.
+        <p className="text-[15px] text-[#656565] mb-2.5">
+          One key aspect of maximizing customer retention and expansion is developing a deep understanding of customers’ needs, preferences, and behaviors. This involves collecting and analyzing data on customer interactions with the business, as well as soliciting feedback and conducting research to better understand their needs and motivations. Armed with this information, businesses can tailor their offerings and communications to better meet customers’ needs and build stronger relationships.
         </p>
         <p className="text-[15px] text-[#656565]">
           Another important element of this strategy is providing exceptional customer service and support. This means responding quickly and effectively to customer inquiries and complaints, providing personalized assistance whenever possible, and going above and beyond to exceed their expectations.
@@ -31,11 +31,11 @@ const tabData = [
     heading: "Streamline Operations for Efficient Scaling",
     content: (
       <>
-        <p className="text-[15px] text-[#656565] mb-[10px]">
-          To optimize operations for scaling, businesses must first conduct a thorough analysis of their current processes to identify areas that can be streamlined, automated, or outsourced.
+        <p className="text-[15px] text-[#656565] mb-2.5">
+          To optimize operations for scaling, businesses must first conduct a thorough analysis of their current processes to identify areas that can be streamlined, automated, or outsourced. This can involve evaluating every aspect of the business, including inventory management, order fulfillment, shipping and logistics, customer service, and marketing. By examining each area of the business in detail, companies can identify inefficiencies and bottlenecks that may be hindering growth and take steps to address them.
         </p>
-        <p className="text-[15px] text-[#656565] mb-[10px]">
-          One key strategy for optimizing operations is to leverage technology to automate routine tasks and streamline processes. This can include implementing software solutions to manage inventory, track orders, and automate customer service, as well as adopting cloud-based solutions to improve collaboration.
+        <p className="text-[15px] text-[#656565] mb-2.5">
+          One key strategy for optimizing operations is to leverage technology to automate routine tasks and streamline processes. This can include implementing software solutions to manage inventory, track orders, and automate customer service, as well as adopting cloud-based solutions to improve collaboration and access to data. By automating routine tasks, businesses can free up resources and focus on more strategic activities that drive growth.
         </p>
         <p className="text-[15px] text-[#656565]">
           Ultimately, optimizing operations for scaling requires a commitment to ongoing improvement and a willingness to invest in the infrastructure and resources needed to support growth.
@@ -50,11 +50,11 @@ const tabData = [
     heading: "Attain a Status of Innovation",
     content: (
       <>
-        <p className="text-[15px] text-[#656565] mb-[10px]">
-          In today’s fast-paced business environment, innovation is key to success, and companies that can continually create new and unique products, services, and business models are more likely to thrive in the long run.
+        <p className="text-[15px] text-[#656565] mb-2.5">
+          In today’s fast-paced business environment, innovation is key to success, and companies that can continually create new and unique products, services, and business models are more likely to thrive in the long run. Attaining a status of innovation requires a combination of vision, creativity, and strategic thinking.
         </p>
-        <p className="text-[15px] text-[#656565] mb-[10px]">
-          To attain a status of innovation, businesses must first develop a culture that values creativity and encourages experimentation. This involves creating an environment where employees are encouraged to think outside the box, challenge assumptions, and explore new ideas.
+        <p className="text-[15px] text-[#656565] mb-2.5">
+          To attain a status of innovation, businesses must first develop a culture that values creativity and encourages experimentation. This involves creating an environment where employees are encouraged to think outside the box, challenge assumptions, and explore new ideas. This can be achieved by offering training and development programs that focus on creativity and innovation, as well as providing resources and support for employees to experiment and test new ideas.
         </p>
         <p className="text-[15px] text-[#656565]">
           By staying up-to-date on the latest trends and developments, businesses can identify new opportunities and areas for innovation that they can capitalize on.
@@ -90,13 +90,12 @@ export default function Tabs() {
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
             className={`flex items-center justify-start sm:justify-center px-3 sm:px-4 py-3 sm:py-4 rounded-lg font-semibold text-sm sm:text-base w-full md:w-full transition-all
-              ${
-                activeTab === tab.id
-                  ? "shadow-inner shadow-gray-300 border border-gray-300"
-                  : "bg-white text-[#000000] border border-gray-300"
+              ${activeTab === tab.id
+                ? "shadow-inner shadow-gray-300 border border-gray-300"
+                : "bg-white text-[#000000] border border-gray-300"
               }`}
           >
-            <span className="mr-2 sm:mr-3 flex-shrink-0">{tab.icon}</span>
+            <span className="mr-2 sm:mr-3 shrink-0">{tab.icon}</span>
             <span className="whitespace-normal text-left sm:text-center">{tab.label}</span>
           </button>
         ))}

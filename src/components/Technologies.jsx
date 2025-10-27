@@ -23,7 +23,6 @@ import image_17 from "../assets/technology/17.webp";
 import image_18 from "../assets/technology/18.webp";
 import image_19 from "../assets/technology/19.webp";
 
-
 const Technologies = () => {
   const images = [
     image_1, image_2, image_3, image_4, image_5, image_6, image_7,
@@ -32,37 +31,39 @@ const Technologies = () => {
   ];
 
   const settings = {
-    infinite: true,               // loop forever
-  slidesToShow: 8,              // show 6 logos at once
-  slidesToScroll: 1,            // autoplay moves 1 slide
-  autoplay: true,               // enable autoplay
-  autoplaySpeed: 2500,          // time between auto moves
-  speed: 700,                   // transition speed (ms)
-  swipeToSlide: true,           // allow free swiping
-  draggable: true,              // allow mouse drag
-  cssEase: "cubic-bezier(0.25, 1, 0.5, 1)",       // smooth easing
-  pauseOnHover: true,
-    arrows:false,
+    infinite: true,
+    slidesToShow: 8,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    speed: 700,
+    swipeToSlide: true,
+    draggable: true,
+    cssEase: "cubic-bezier(0.25, 1, 0.5, 1)",
+    pauseOnHover: true,
+    arrows: false,
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 6 } },
-      { breakpoint: 768, settings: { slidesToShow: 4 } },
-      { breakpoint: 480, settings: { slidesToShow: 2 } },
+      { breakpoint: 768, settings: { slidesToShow: 5 } },
+      { breakpoint: 640, settings: { slidesToShow: 4 } },
+      { breakpoint: 480, settings: { slidesToShow: 3 } },
     ],
   };
 
   return (
-    <div className="slider-container w-full px-2 sm:px-4 md:px-6 lg:px-0 ">
+    <div className="slider-container w-full px-2 sm:px-4 md:px-6 lg:px-0">
       <Slider {...settings}>
         {images.map((img, i) => (
-          <div key={i} className="relative flex items-center justify-center px-1 sm:px-2 h-[90px] sm:h-[110px] md:h-[100px]">
-            {/* --- Technology Box --- */}
-              <img
-                src={img}
-                alt={`Client ${i + 1}`}
-                className="max-w-[100px] sm:max-w-[110px] md:max-w-[100px] max-h-[60px] sm:max-h-[70px] md:max-h-[100px]"
-                loading="lazy"
-              />
-                 
+          <div
+            key={i}
+            className="flex items-center justify-center px-2 sm:px-3 md:px-4 h-[90px] sm:h-[110px] md:h-[100px]"
+          >
+            <img
+              src={img}
+              alt={`Technology ${i + 1}`}
+              className="object-contain mx-auto max-w-[80px] sm:max-w-[100px] md:max-w-[110px] max-h-[60px] sm:max-h-[70px] md:max-h-[100px]"
+              loading="lazy"
+            />
           </div>
         ))}
       </Slider>

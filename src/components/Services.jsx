@@ -39,7 +39,7 @@ export default function WhatWeDo() {
   const services = [
     {
       title: "Web Development",
-      icon: <img src={WebDev} className="w-[40px] h-[40px]" alt="web" />,
+      icon: <img src={WebDev} className="w-10 h-10" alt="web" />,
       items: [
         { name: "PHP", icon: <SiPhp className="text-[#7377AD] w-[30px] h-[30px]" /> },
         { name: "WordPress", icon: <FaWordpress className="text-[#21759B] w-[30px] h-[30px]" /> },
@@ -51,7 +51,7 @@ export default function WhatWeDo() {
     },
     {
       title: "Branding & Graphics",
-      icon: <img src={UI_UX} className="w-[40px] h-[40px]" alt="uiux" />,
+      icon: <img src={UI_UX} className="w-10 h-10" alt="uiux" />,
       items: [
         { name: "Adobe XD", icon: <img src="https://img.icons8.com/color/48/adobe-xd.png" className="w-[30px] h-[30px]" alt="xd" /> },
         { name: "Figma", icon: <SiFigma className="text-[#F24E1E] w-[30px] h-[30px]" /> },
@@ -63,19 +63,19 @@ export default function WhatWeDo() {
     },
     {
       title: "App Development",
-      icon: <img src={AppDev} className="w-[40px] h-[40px]" alt="app" />,
+      icon: <img src={AppDev} className="w-10 h-10" alt="app" />,
       items: [
         { name: "Android", icon: <FaAndroid className="text-[#3DDC84] w-[30px] h-[30px]" /> },
         { name: "React Native", icon: <FaReact className="text-[#61DAFB] w-[30px] h-[30px]" /> },
         { name: "iOS App", icon: <FaApple className="text-gray-600 w-[30px] h-[30px]" /> },
         { name: "Flutter", icon: <SiFlutter className="text-[#02569B] w-[30px] h-[30px]" /> },
         { name: "Kotlin", icon: <SiKotlin className="text-[#7F52FF] w-[30px] h-[30px]" /> },
-        { name: "Game Development", icon: <SiUnity className="text-[#000] w-[30px] h-[30px]" /> },
+        { name: "Game Development", icon: <SiUnity className="text-black w-[30px] h-[30px]" /> },
       ],
     },
     {
       title: "CMS Development",
-      icon: <img src={CMSDev} className="w-[40px] h-[40px]" alt="cms" />,
+      icon: <img src={CMSDev} className="w-10 h-10" alt="cms" />,
       items: [
         { name: "Shopify", icon: <SiShopify className="text-[#96BF48] w-[30px] h-[30px]" /> },
         { name: "WordPress", icon: <FaWordpress className="text-[#21759B] w-[30px] h-[30px]" /> },
@@ -86,7 +86,7 @@ export default function WhatWeDo() {
     },
     {
       title: "Blockchain Development",
-      icon: <img src={BlockchainDev} className="w-[40px] h-[40px]" alt="blockchain" />,
+      icon: <img src={BlockchainDev} className="w-10 h-10" alt="blockchain" />,
       items: [
         { name: "Ethereum", icon: <FaEthereum className="text-[#3C3C3D] w-[30px] h-[30px]" /> },
         { name: "Hyperledger", icon: <img src="https://img.icons8.com/color/48/blockchain-technology.png" className="w-[30px] h-[30px]" alt="hyperledger" /> },
@@ -97,7 +97,7 @@ export default function WhatWeDo() {
     },
     {
       title: "SEO / SMM",
-      icon: <img src={SEO_SMM} className="w-[40px] h-[40px]" alt="seo-smm" />,
+      icon: <img src={SEO_SMM} className="w-10 h-10" alt="seo-smm" />,
       items: [
         { name: "Search Engine Optimization", icon: <img src={Seo} className="w-[30px] h-[30px]" alt="seo" /> },
         { name: "Social Media Marketing", icon: <img src={Smm} className="w-[30px] h-[30px]" alt="smm" /> },
@@ -107,12 +107,12 @@ export default function WhatWeDo() {
   ];
 
   return (
-    <div className="max-w-[1140px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-6">
+    <div className="max-w-[1140px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-6">
       {services.map((category, index) => (
         <div key={index} className="p-6">
           <div className="flex items-center gap-3 mb-5">
             <div className="flex items-center justify-center">{category.icon}</div>
-            <span className="text-base uppercase font-bold text-[#221e1f] transition-colors">
+            <span className="text-base uppercase font-bold text-[#221e1f] text-left transition-colors">
               {category.title}
             </span>
           </div>
@@ -121,7 +121,7 @@ export default function WhatWeDo() {
             {category.items.map((item, i) => (
               <div key={i} className="flex items-center gap-3 text-gray-700">
                 <div className="flex items-center justify-center">{item.icon}</div>
-                <span className="font-medium">{item.name}</span>
+                <span className="font-medium text-left">{item.name}</span>
               </div>
             ))}
           </div>

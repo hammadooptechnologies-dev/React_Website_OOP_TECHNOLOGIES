@@ -62,18 +62,18 @@ const OurClients = () => {
             className="relative px-1 sm:px-2 h-[90px] sm:h-[110px] md:h-[120px] flex justify-center items-center"
           >
             {/* --- Client Box --- */}
-            <div className="flex items-center justify-center w-[120px] sm:w-[140px] md:w-[160px] h-[80px] sm:h-[90px] md:h-[100px] mx-auto bg-white shadow-[6px_12px_12px_rgba(0,0,0,0.08)] rounded-md">
+            <div className="flex items-center justify-center w-[120px] sm:w-[140px] md:w-40 h-20 sm:h-[90px] md:h-[100px] mx-auto bg-white shadow-[6px_12px_12px_rgba(0,0,0,0.08)] rounded-md">
               <img
                 src={img}
                 alt={`Client ${i + 1}`}
-                className="max-w-[100px] sm:max-w-[110px] md:max-w-[120px] max-h-[60px] sm:max-h-[70px] md:max-h-[80px] object-contain"
+                className="max-w-[100px] sm:max-w-[110px] md:max-w-[120px] max-h-[60px] sm:max-h-[70px] md:max-h-20 object-contain"
                 loading="lazy"
               />
             </div>
 
             {/* --- Divider (hidden on small screens) --- */}
             {i !== images.length - 1 && (
-              <div className="absolute right-0 top-1/2 transform -translate-y-1/2 h-[40px] sm:h-[50px] w-[1px] bg-gray-300 hidden sm:block"></div>
+              <div className="absolute right-0 top-1/2 transform -translate-y-1/2 h-10 sm:h-[50px] w-px bg-gray-300 hidden sm:block"></div>
             )}
           </div>
         ))}

@@ -32,7 +32,7 @@ import NeedHelp from "../assets/need-help.webp"
 
 
 export default function Footer() {
-   const [hovered, setHovered] = useState(false);
+  const [hovered, setHovered] = useState(false);
   const quickLinks = [
     "Home",
     "About Us",
@@ -138,39 +138,38 @@ export default function Footer() {
             Subscribe our newsletter to get our latest updates & news.
           </p>
 
-          <div className="flex w-[255px] h-[60px] bg-[#222222] rounded-full border border-[#3a3a3a]">
+          <div className="flex w-full max-w-[255px] sm:max-w-[320px] md:max-w-[360px] lg:max-w-[400px] xl:max-w-[440px] h-[55px] sm:h-[60px] bg-[#222222] rounded-full border border-[#3a3a3a] mx-auto">
             <input
               type="email"
               placeholder="Email address"
-              className="w-full pl-4 text-[#777] font-semibold focus:outline-none"
+              className="w-full pl-4 text-sm sm:text-base text-[#777] font-semibold bg-transparent focus:outline-none"
             />
             <button
               onMouseEnter={() => setHovered(true)}
               onMouseLeave={() => setHovered(false)}
-              className="relative bg-[#1b75bb] text-white p-5 rounded-full transition-all duration-300 flex items-center justify-center" 
-                
+              className="relative bg-[#1b75bb] text-white px-5 sm:px-6 rounded-full transition-all duration-300 flex items-center justify-center shrink-0"
             >
               {/* Icon */}
               <FaLongArrowAltRight
-                className={`text-xl transition-all duration-300 ${hovered ? "opacity-0" : "opacity-100"
+                className={`text-lg sm:text-xl transition-all duration-300 ${hovered ? "opacity-0" : "opacity-100"
                   }`}
               />
 
               {/* Text */}
               <span
-                className={`absolute font-semibold text-white transition-all duration-300 ${hovered ? "opacity-100" : "opacity-0 "
+                className={`absolute font-semibold text-white text-sm sm:text-base transition-all duration-300 ${hovered ? "opacity-100" : "opacity-0"
                   }`}
               >
                 Send
               </span>
             </button>
-
           </div>
+
         </div>
       </div>
 
       {/* ---------- Footer Bottom ---------- */}
-      <div className="border-t border-white/20 text-center py-4 text-base text-white font-bold">
+      <div className="border-t border-white/20 text-center py-4 text-[12px] sm:text-base text-white font-bold">
         Copyright © {new Date().getFullYear()} | OOPTechnologies | All Rights Reserved.
       </div>
     </footer>

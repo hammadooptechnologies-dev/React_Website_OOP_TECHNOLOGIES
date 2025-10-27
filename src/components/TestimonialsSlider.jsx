@@ -58,9 +58,33 @@ const TestimonialsSlider = () => {
     pauseOnHover: true,
     arrows: false,
     responsive: [
-      { breakpoint: 1280, settings: { slidesToShow: 3 } },
-      { breakpoint: 1024, settings: { slidesToShow: 2 } },
-      { breakpoint: 768, settings: { slidesToShow: 1 } },
+      {
+        breakpoint: 1024, // under 1024px → show 2 slides centered
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          centerMode: true,
+          centerPadding: "0px",
+        },
+      },
+      {
+        breakpoint: 768, // under 768px → show 1 slide centered
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          centerMode: true,
+          centerPadding: "0px",
+        },
+      },
+      {
+        breakpoint: 640, // under 768px → show 1 slide centered
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: true,
+          centerPadding: "0px",
+        },
+      },
     ],
   };
 
@@ -69,10 +93,10 @@ const TestimonialsSlider = () => {
       <Slider {...settings}>
         {testimonials.map((t, i) => (
           <div key={i} className="px-3 h-[440px] flex justify-center items-center">
-            <div className="w-[351px] h-[420px] bg-white relative text-center overflow-hidden shadow-[6px_12px_12px_rgba(0,0,0,0.15)] transition-all duration-300 hover:shadow-xl rounded-md group">
-              
+            <div className="w-full h-full bg-white relative text-center overflow-hidden shadow-[6px_12px_12px_rgba(0,0,0,0.15)] transition-all duration-300 hover:shadow-xl rounded-md group">
+
               {/* Blue Curve + Quote Icon */}
-              <div className="absolute top-0 right-0 w-[80px] h-[80px] bg-[#1b75bb] rounded-bl-[100px] flex items-center justify-center">
+              <div className="absolute top-0 right-0 w-20 h-20 bg-[#1b75bb] rounded-bl-[100px] flex items-center justify-center">
                 <FaQuoteRight className="text-white text-3xl" />
               </div>
 
@@ -81,7 +105,7 @@ const TestimonialsSlider = () => {
                 <img
                   src={t.image}
                   alt={t.name}
-                  className="w-[80px] h-[80px] object-cover rounded-full border-4 border-white shadow-md"
+                  className="w-20 h-20 object-cover rounded-full border-4 border-white shadow-md"
                 />
               </div>
 
