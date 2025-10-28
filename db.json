@@ -6,7 +6,7 @@
       { "name": "AI Websites", "icon": "FaRobot", "size": "22px", "slug": "ai-websites" }
     ],
     "Website Development": [
-      { "name": "Php Development", "icon": "FaPhp", "size": "22px", "slug": "php-development" },
+      { "name": "PHP Development", "icon": "FaPhp", "size": "22px", "slug": "php-development" },
       { "name": "Custom Software Development", "icon": "FaCode", "size": "22px", "slug": "custom-software-development" },
       { "name": "Frontend Development", "icon": "FaReact", "size": "22px", "slug": "frontend-development" },
       { "name": "Drupal Development", "icon": "SiDrupal", "size": "22px", "slug": "drupal-development" },
