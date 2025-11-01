@@ -24,22 +24,11 @@ import {
   SiPhp,
 } from "react-icons/si";
 
-import SC from "../assets/services/smart-contracts.webp";
-import Seo from "../assets/services/seo.png";
-import Smm from "../assets/services/smm.webp";
-import Sem from "../assets/services/sem.webp";
-import WebDev from "../assets/services/web-development.webp";
-import AppDev from "../assets/services/app-development.webp";
-import CMSDev from "../assets/services/cms.webp";
-import BlockchainDev from "../assets/services/blockchain.png";
-import SEO_SMM from "../assets/services/seo-smm.png";
-import UI_UX from "../assets/services/ui-ux.png";
-
 export default function WhatWeDo() {
   const services = [
     {
       title: "Web Development",
-      icon: <img src={WebDev} className="w-10 h-10" alt="web" />,
+      icon: <img src="/assets/services/web-development.webp"className="w-10 h-10" alt="web" />,
       items: [
         { name: "PHP", icon: <SiPhp className="text-[#7377AD] w-[30px] h-[30px]" /> },
         { name: "WordPress", icon: <FaWordpress className="text-[#21759B] w-[30px] h-[30px]" /> },
@@ -51,7 +40,7 @@ export default function WhatWeDo() {
     },
     {
       title: "Branding & Graphics",
-      icon: <img src={UI_UX} className="w-10 h-10" alt="uiux" />,
+      icon: <img src="/assets/services/ui-ux.png" className="w-10 h-10" alt="uiux" />,
       items: [
         { name: "Adobe XD", icon: <img src="https://img.icons8.com/color/48/adobe-xd.png" className="w-[30px] h-[30px]" alt="xd" /> },
         { name: "Figma", icon: <SiFigma className="text-[#F24E1E] w-[30px] h-[30px]" /> },
@@ -63,7 +52,7 @@ export default function WhatWeDo() {
     },
     {
       title: "App Development",
-      icon: <img src={AppDev} className="w-10 h-10" alt="app" />,
+      icon: <img src="/assets/services/app-development.webp" className="w-10 h-10" alt="app" />,
       items: [
         { name: "Android", icon: <FaAndroid className="text-[#3DDC84] w-[30px] h-[30px]" /> },
         { name: "React Native", icon: <FaReact className="text-[#61DAFB] w-[30px] h-[30px]" /> },
@@ -75,7 +64,7 @@ export default function WhatWeDo() {
     },
     {
       title: "CMS Development",
-      icon: <img src={CMSDev} className="w-10 h-10" alt="cms" />,
+      icon: <img src="/assets/services/cms.webp" className="w-10 h-10" alt="cms" />,
       items: [
         { name: "Shopify", icon: <SiShopify className="text-[#96BF48] w-[30px] h-[30px]" /> },
         { name: "WordPress", icon: <FaWordpress className="text-[#21759B] w-[30px] h-[30px]" /> },
@@ -86,22 +75,22 @@ export default function WhatWeDo() {
     },
     {
       title: "Blockchain Development",
-      icon: <img src={BlockchainDev} className="w-10 h-10" alt="blockchain" />,
+      icon: <img src="/assets/services/blockchain.png" className="w-10 h-10" alt="blockchain" />,
       items: [
         { name: "Ethereum", icon: <FaEthereum className="text-[#3C3C3D] w-[30px] h-[30px]" /> },
         { name: "Hyperledger", icon: <img src="https://img.icons8.com/color/48/blockchain-technology.png" className="w-[30px] h-[30px]" alt="hyperledger" /> },
         { name: "Private Blockchains", icon: <img src="https://img.icons8.com/color/48/blockchain.png" className="w-[30px] h-[30px]" alt="private" /> },
-        { name: "Smart Contracts", icon: <img src={SC} className="w-[30px] h-[30px]" alt="smart" /> },
+        { name: "Smart Contracts", icon: <img src="/assets/services/smart-contracts.webp" className="w-[30px] h-[30px]" alt="smart" /> },
         { name: "NFT Marketplace", icon: <img src="https://img.icons8.com/color/48/nft.png" className="w-[30px] h-[30px]" alt="nft" /> },
       ],
     },
     {
       title: "SEO / SMM",
-      icon: <img src={SEO_SMM} className="w-10 h-10" alt="seo-smm" />,
+      icon: <img src="/assets/services/seo-smm.png" className="w-10 h-10" alt="seo-smm" />,
       items: [
-        { name: "Search Engine Optimization", icon: <img src={Seo} className="w-[30px] h-[30px]" alt="seo" /> },
-        { name: "Social Media Marketing", icon: <img src={Smm} className="w-[30px] h-[30px]" alt="smm" /> },
-        { name: "SEM / PPC", icon: <img src={Sem} className="w-[30px] h-[30px]" alt="ppc" /> },
+        { name: "Search Engine Optimization", icon: <img src="/assets/services/seo.png" className="w-[30px] h-[30px]" alt="seo" /> },
+        { name: "Social Media Marketing", icon: <img src="/assets/services/smm.webp" className="w-[30px] h-[30px]" alt="smm" /> },
+        { name: "SEM / PPC", icon: <img src="/assets/services/sem.webp" className="w-[30px] h-[30px]" alt="ppc" /> },
       ],
     },
   ];

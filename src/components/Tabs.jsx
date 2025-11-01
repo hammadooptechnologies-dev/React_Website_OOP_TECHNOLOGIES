@@ -1,14 +1,11 @@
 import React, { useState } from "react";
-import Tab1 from "../assets/svg-assisting-clients/grow-black.svg";
-import Tab2 from "../assets/svg-assisting-clients/scale-black.svg";
-import Tab3 from "../assets/svg-assisting-clients/leadership-black.svg";
-import Tab4 from "../assets/svg-assisting-clients/iterate-black.svg";
+
 
 const tabData = [
   {
     id: "retain",
     label: "Retain & Grow Customers",
-    icon: <img src={Tab1} alt="Retain & Grow Customers" className="w-16 sm:w-20 h-16 sm:h-20" />,
+    icon: <img src="/assets/svg-assisting-clients/grow-black.svg" alt="Retain & Grow Customers" className="w-16 sm:w-20 h-16 sm:h-20" />,
     heading: "Build a Strong Customer Retention Strategy",
     content: (
       <>
@@ -27,7 +24,7 @@ const tabData = [
   {
     id: "optimize",
     label: "Optimize Operations Scale",
-    icon: <img src={Tab2} alt="Optimize Operations Scale" className="w-16 sm:w-20 h-16 sm:h-20" />,
+    icon: <img src="/assets/svg-assisting-clients/scale-black.svg" alt="Optimize Operations Scale" className="w-16 sm:w-20 h-16 sm:h-20" />,
     heading: "Streamline Operations for Efficient Scaling",
     content: (
       <>
@@ -46,7 +43,7 @@ const tabData = [
   {
     id: "innovate",
     label: "Achieve Innovative Status",
-    icon: <img src={Tab3} alt="Achieve Innovative Status" className="w-16 sm:w-20 h-16 sm:h-20" />,
+    icon: <img src="/assets/svg-assisting-clients/leadership-black.svg" alt="Achieve Innovative Status" className="w-16 sm:w-20 h-16 sm:h-20" />,
     heading: "Attain a Status of Innovation",
     content: (
       <>
@@ -65,7 +62,7 @@ const tabData = [
   {
     id: "results",
     label: "Generate Positive Revenue",
-    icon: <img src={Tab4} alt="Generate Positive Revenue" className="w-16 sm:w-20 h-16 sm:h-20" />,
+    icon: <img src="/assets/svg-assisting-clients/iterate-black.svg" alt="Generate Positive Revenue" className="w-16 sm:w-20 h-16 sm:h-20" />,
     heading: "Our Digital Marketing Agency Gets Results, And we can prove it!",
     content: (
       <>

@@ -3,33 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import image_1 from "../assets/clients/1.webp";
-import image_2 from "../assets/clients/2.webp";
-import image_3 from "../assets/clients/3.webp";
-import image_4 from "../assets/clients/4.webp";
-import image_5 from "../assets/clients/5.webp";
-import image_6 from "../assets/clients/6.webp";
-import image_7 from "../assets/clients/7.webp";
-import image_8 from "../assets/clients/8.webp";
-import image_9 from "../assets/clients/9.webp";
-import image_10 from "../assets/clients/10.webp";
-import image_11 from "../assets/clients/11.webp";
-import image_12 from "../assets/clients/12.webp";
-import image_13 from "../assets/clients/13.webp";
-import image_14 from "../assets/clients/14.webp";
-import image_15 from "../assets/clients/15.webp";
-import image_16 from "../assets/clients/16.webp";
-import image_17 from "../assets/clients/17.webp";
-import image_18 from "../assets/clients/18.webp";
-import image_19 from "../assets/clients/19.webp";
-import image_20 from "../assets/clients/20.webp";
-import image_21 from "../assets/clients/21.webp";
-
 const OurClients = () => {
   const images = [
-    image_1, image_2, image_3, image_4, image_5, image_6, image_7,
-    image_8, image_9, image_10, image_11, image_12, image_13, image_14,
-    image_15, image_16, image_17, image_18, image_19, image_20, image_21,
+    "/assets/clients/1.webp","/assets/clients/2.webp","/assets/clients/3.webp","/assets/clients/4.webp","/assets/clients/5.webp","/assets/clients/6.webp","/assets/clients/7.webp","/assets/clients/8.webp","/assets/clients/9.webp","/assets/clients/10.webp","/assets/clients/11.webp","/assets/clients/12.webp","/assets/clients/13.webp","/assets/clients/14.webp","/assets/clients/15.webp","/assets/clients/16.webp","/assets/clients/17.webp","/assets/clients/18.webp","/assets/clients/19.webp","/assets/clients/20.webp","/assets/clients/21.webp"
   ];
 
   const settings = {

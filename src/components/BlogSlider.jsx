@@ -91,21 +91,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaRegCommentDots, FaUserCircle } from "react-icons/fa";
 
-import blog1 from "../assets/blogs/b1.webp";
-import blog2 from "../assets/blogs/b2.webp";
-import blog3 from "../assets/blogs/b3.webp";
-import blog4 from "../assets/blogs/b4.webp";
-import blog5 from "../assets/blogs/b5.webp";
-import blog6 from "../assets/blogs/b6.webp";
-
 const BlogSlider = () => {
   const blogs = [
-    { image: blog1, title: "How To Develop WordPress Plugin?", desc: "Developing WordPress plugins is a rewarding experience for those seeking to add custom functionality to", comments: 0, author: "OOP Technologies" },
-    { image: blog2, title: "Do Developers Use WordPress?", desc: "Developers often use WordPress as a powerful tool for creating websites and managing content. With", comments: 0, author: "OOP Technologies" },
-    { image: blog3, title: "How To Get Started With WordPress Development?", desc: "If you're looking to get started with WordPress development, you're in luck. Clearly, WordPress is", comments: 0, author: "OOP Technologies" },
-    { image: blog4, title: "Why PHP is Getting Stronger?", desc: "PHP is a popular scripting language used for web development. And it is experiencing a", comments: 0, author: "OOP Technologies" },
-    { image: blog5, title: "Difference Between WordPress Developer And WordPress Designer", desc: "A WordPress developer and designer is a professional who specializes in creating and customizing WordPress", comments: 0, author: "OOP Technologies" },
-    { image: blog6, title: "When Did WordPress Become Popular?", desc: "WordPress has become the most popular content management system (CMS) in the world, powering over", comments: 0, author: "OOP Technologies" },
+    { image: "/assets/blogs/b1.webp", title: "How To Develop WordPress Plugin?", desc: "Developing WordPress plugins is a rewarding experience for those seeking to add custom functionality to", comments: 0, author: "OOP Technologies" },
+    { image: "/assets/blogs/b2.webp", title: "Do Developers Use WordPress?", desc: "Developers often use WordPress as a powerful tool for creating websites and managing content. With", comments: 0, author: "OOP Technologies" },
+    { image: "/assets/blogs/b3.webp", title: "How To Get Started With WordPress Development?", desc: "If you're looking to get started with WordPress development, you're in luck. Clearly, WordPress is", comments: 0, author: "OOP Technologies" },
+    { image: "/assets/blogs/b4.webp", title: "Why PHP is Getting Stronger?", desc: "PHP is a popular scripting language used for web development. And it is experiencing a", comments: 0, author: "OOP Technologies" },
+    { image: "/assets/blogs/b5.webp", title: "Difference Between WordPress Developer And WordPress Designer", desc: "A WordPress developer and designer is a professional who specializes in creating and customizing WordPress", comments: 0, author: "OOP Technologies" },
+    { image: "/assets/blogs/b6.webp", title: "When Did WordPress Become Popular?", desc: "WordPress has become the most popular content management system (CMS) in the world, powering over", comments: 0, author: "OOP Technologies" },
   ];
 
   const settings = {

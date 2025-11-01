@@ -3,7 +3,6 @@ import { useState, useEffect, useRef } from "react";
 import { GoChevronDown } from "react-icons/go";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaChevronUp } from "react-icons/fa";
-import Logo from "../assets/nav-logo.webp";
 import MegaMenu from "./MegaMenu";
 
 const Navbar = () => {
@@ -36,7 +35,7 @@ const Navbar = () => {
   const menuItems = [
     { name: "Home", link: "/" },
     { name: "Services", link: "#services", icon: <GoChevronDown /> },
-    { name: "Portfolio", link: "#portfolio" },
+    { name: "Portfolio", link: "/portfolio" },
     { name: "Company", link: "#company", icon: <GoChevronDown /> },
     { name: "Hire a Developer", link: "#hireadeveloper" },
     { name: "Contact", link: "#contact" },
@@ -75,7 +74,7 @@ const Navbar = () => {
         {/* Logo */}
         <a href="/" className="flex items-center">
           <img
-            src={Logo}
+            src="/assets/nav-logo.webp"
             className="w-[100px] md:w-[150px] md:h-[54px] mx-4 xl:mx-0"
             alt="Logo"
           />
@@ -202,7 +201,7 @@ const Navbar = () => {
                     {showMegaMenu ? <FaChevronUp /> : <GoChevronDown />}
                   </button>
                   {showMegaMenu && (
-                    <div className="mt-3 border-t border-gray-200 pt-3">
+                    <div className="mt-3">
                       <MegaMenu isMobile />
                     </div>
                   )}

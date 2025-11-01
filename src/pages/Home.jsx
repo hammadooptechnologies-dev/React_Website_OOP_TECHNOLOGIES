@@ -1,51 +1,32 @@
 "use client";
-import hero from "../assets/hero.webp";
-import Banner from "../assets/banner-img.webp";
 import { Link, useNavigate } from "react-router-dom";
 import { FaRegNewspaper, FaBriefcase, FaBullhorn, FaListAlt } from "react-icons/fa";
-import NeedHelpPanel from "../components/NeedHelpPanel";
 import OurClients from "../components/OurClients";
-import gallery1 from "../assets/gallery1.jpg";
-import gallery2 from "../assets/about-img.webp";
-import BG_Tech from "../assets/technology/bg-technology.webp";
-import BG_Product from "../assets/products/bg-products.webp";
-import P1 from "../assets/products/p1.webp";
-import P2 from "../assets/products/p2.webp";
-import P3 from "../assets/products/p3.webp";
 import Technologies from "../components/Technologies";
 import WhatWeDo from "../components/Services";
 import Tabs from "../components/Tabs";
 import PortfolioTabs from "../components/PortfolioTabs";
-import W1 from "../assets/why-choose-us/w1.webp";
-import W2 from "../assets/why-choose-us/w2.webp";
-import W3 from "../assets/why-choose-us/w3.webp";
-import W4 from "../assets/why-choose-us/w4.webp";
-import BG_CTA from "../assets/cta1.webp"
 import BlogSlider from "../components/BlogSlider";
-import Process from "../assets/process-flow.webp"
-import MAC_CTA from "../assets/macs-cta.webp"
-import MAC2_CTA from "../assets/mac2-cta.webp"
-import TestimonialsSlider from "../components/TestimonialsSlider";
+import TestimonialsSection from "../components/TestimonialsSection";
 import Faqs from "../components/Faqs";
 
 
-
-
 export default function Home() {
+   
   return (
     <>
       {/* Hero Section */}
 
       <section
         className="min-h-[765px] mb-28 sm:mb-0 mt-16 md:mt-20 text-black px-6 md:py-24 bg-fill bg-top-left md:bg-bottom bg-no-repeat"
-        style={{ backgroundImage: `url(${hero})` }}
+        style={{ backgroundImage: `url("/assets/hero.webp")` }}
       >
         <div className="max-w-[1140px] mx-auto lg:mt-12 grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-8">
           {/* ---- Right Image (moved above text on small screens) ---- */}
           <div className="flex justify-center md:justify-start md:pl-5 mt-10 md:mt-0 order-1 md:order-2">
 
             <img
-              src={Banner}
+              src="/assets/banner-img.webp"
               className="w-full max-w-[500px] md:max-w-[520px] h-auto object-contain"
               alt="OOP Technologies Banner"
             />
@@ -121,9 +102,9 @@ export default function Home() {
 
 
 
-      <div className="relative overflow-hidden">
+      {/* <div className="relative overflow-hidden">
         <NeedHelpPanel />
-      </div>
+      </div> */}
 
 
       {/* Our Clients Section */}
@@ -196,7 +177,7 @@ export default function Home() {
               {/* Main image */}
               <div className="relative w-[235px] sm:w-[300px] md:w-[300px] lg:w-[406px] h-auto xl:overflow-hidden xl:origin-top-right xl:transition-all xl:duration-7000 xl:ease-[cubic-bezier(0.45,0,0.15,1)] xl:hover:scale-[1.05] z-20">
                 <img
-                  src={gallery1}
+                  src="/assets/gallery1.jpg"
                   alt="Main visual"
                   className="w-full h-auto object-cover relative z-20 shadow-lg xl:transform xl:transition-transform xl:duration-5000 xl:ease-in-out xl:origin-center xl:hover:scale-[1.1]"
                 />
@@ -206,9 +187,9 @@ export default function Home() {
               <div className="absolute -bottom-8 sm:-bottom-10 -left-8 sm:-left-10 rotate-180 w-32 sm:w-36 md:w-40 h-32 sm:h-40 md:h-44 border-l-120 sm:border-l-160 md:border-l-180 border-l-transparent border-t-120 sm:border-t-160 md:border-t-180 border-t-[#1b75bb] z-10"></div>
 
               {/* Small overlapping image */}
-              <div className="absolute -bottom-16 sm:bottom-[-100px] md:bottom-[-74px] right-[-30px] sm:-right-20 md:-right-8 border-8 sm:border-10 border-white z-30">
+              <div className="absolute -bottom-16 sm:bottom-[-100px] md:bottom-[-98px] right-[-30px] sm:-right-20 md:-right-10 border-8 sm:border-10 border-white z-30">
                 <img
-                  src={gallery2}
+                  src="/assets/about-img.webp"
                   alt="Small visual"
                   className="w-[130px] sm:w-[220px] md:w-40 lg:w-[220px] h-auto object-cover z-30 xl:transition-all xl:duration-7000 xl:ease-[cubic-bezier(0.45,0,0.15,1)] xl:hover:scale-[1.1] xl:origin-center"
                 />
@@ -231,11 +212,11 @@ export default function Home() {
 
       <section
         className="w-full bg-white py-2 sm:py-10 md:mt-8 bg-no-repeat bg-cover bg-center"
-        style={{ backgroundImage: `url(${BG_Tech})` }}
+        style={{ backgroundImage: `url("/assets/technology/bg-technology.webp")` }}
       >
         <div className="max-w-[1140px] mx-auto text-center px-4 sm:px-6 md:px-8">
           {/* Small blue heading with horizontal lines */}
-          <div className="flex items-center justify-center mb-4">
+          <div className="flex items-center justify-center mb-2">
             <span className="w-10 sm:w-12 h-[3px] bg-[#1b75bb] mr-3 rounded-full"></span>
             <span className="text-[#1b75bb] font-extrabold text-base sm:text-lg tracking-wider">
               Tech-Driven
@@ -282,7 +263,7 @@ export default function Home() {
       {/* Products Section*/}
 
       <section className="w-full bg-white py-4 md:mt-4 bg-fill bg-no-repeat"
-        style={{ backgroundImage: `url(${BG_Product})` }}>
+        style={{ backgroundImage: `url("/assets/products/bg-products.webp")` }}>
         <div className="max-w-[1140px] mx-auto text-center">
           {/* Small blue heading with horizontal lines */}
           <div className="flex items-center justify-center mb-4">
@@ -303,7 +284,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-4">
             {[
               {
-                img: P1,
+                img: "/assets/products/p1.webp",
                 title: "Portfolio Website Templates",
                 price: (
                   <>
@@ -313,7 +294,7 @@ export default function Home() {
                 ),
               },
               {
-                img: P2,
+                img: "/assets/products/p2.webp",
                 title: "Nail Art Website Template",
                 price: (
                   <>
@@ -323,7 +304,7 @@ export default function Home() {
                 ),
               },
               {
-                img: P3,
+                img: "/assets/products/p3.webp",
                 title: "Beauty Tips Website Template",
                 price: (
                   <>
@@ -347,7 +328,7 @@ export default function Home() {
                   <img
                     src={card.img}
                     alt={card.title}
-                    className="w-full h-[296px] object-cover transform transition-transform duration-300 ease-in-out group-hover:scale-105"
+                    className="w-full h-full object-cover transform transition-transform duration-300 ease-in-out group-hover:scale-105"
                   />
                 </div>
 
@@ -396,33 +377,7 @@ export default function Home() {
 
       {/* Our Creative Works Section*/}
 
-      <section className="w-full bg-white py-4 md:mt-4">
-        <div className="max-w-[1140px] mx-auto text-center">
-          {/* Small blue heading with horizontal lines */}
-          <div className="flex items-center justify-center mb-4">
-            <span className="w-12 h-[3px] bg-[#1b75bb] mr-3 rounded-full"></span>
-            <span className="text-[#1b75bb] font-extrabold text-lg tracking-wider">
-              Portfolio
-            </span>
-            <span className="w-12 h-[3px] bg-[#1b75bb] ml-3 rounded-full"></span>
-          </div>
-
-          {/* Main heading */}
-          <h2 className="text-3xl md:text-4xl font-semibold text-[#221e1f] mb-5">
-            Our Creative Works
-          </h2>
-
-          {/* Portfolio Tabs Component */}
-          <PortfolioTabs />
-
-          {/* See More Button */}
-          <div className="flex justify-center mt-12">
-            <button className="bg-[#231f20] text-white px-10 py-4 rounded-full font-medium text-sm md:text-base shadow-[6px_12px_12px_rgba(0,0,0,0.08)] transform transition-transform duration-500 ease-in-out hover:scale-103">
-              VIEW ALL
-            </button>
-          </div>
-        </div>
-      </section>
+      <PortfolioTabs />
 
 
 
@@ -449,25 +404,25 @@ export default function Home() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 place-items-center">
               {/* Card 1 */}
               <div className="flex flex-col items-center justify-center bg-white rounded-lg shadow-[0_0_16px_rgba(0,0,0,0.4)] p-4 w-[260px] lg:w-[187px] lg:h-[158px] sm:w-[280px] sm:h-40">
-                <img src={W1} alt="High Quality" className="w-12 h-12 mb-4" />
+                <img src="/assets/why-choose-us/w1.webp" alt="High Quality" className="w-12 h-12 mb-4" />
                 <h3 className="text-base sm:text-lg font-semibold text-[#221e1f]">High Quality</h3>
               </div>
 
               {/* Card 2 */}
               <div className="flex flex-col items-center justify-center bg-white rounded-lg shadow-[0_0_16px_rgba(0,0,0,0.4)] p-4 w-[260px] lg:w-[187px] lg:h-[158px] sm:w-[280px] sm:h-40">
-                <img src={W2} alt="Affordable Cost" className="w-12 h-12 mb-4" />
+                <img src="/assets/why-choose-us/w2.webp" alt="Affordable Cost" className="w-12 h-12 mb-4" />
                 <h3 className="text-base sm:text-lg font-semibold text-[#221e1f]">Affordable Cost</h3>
               </div>
 
               {/* Card 3 */}
               <div className="flex flex-col items-center justify-center bg-white rounded-lg shadow-[0_0_16px_rgba(0,0,0,0.4)] p-4 w-[260px] lg:w-[187px] lg:h-[158px] sm:w-[280px] sm:h-40">
-                <img src={W3} alt="Clean Code" className="w-12 h-12 mb-4" />
+                <img src="/assets/why-choose-us/w3.webp" alt="Clean Code" className="w-12 h-12 mb-4" />
                 <h3 className="text-base sm:text-lg font-semibold text-[#221e1f]">Clean Code</h3>
               </div>
 
               {/* Card 4 */}
               <div className="flex flex-col items-center justify-center bg-white rounded-lg shadow-[0_0_16px_rgba(0,0,0,0.4)] p-4 w-[260px] lg:w-[187px] lg:h-[158px] sm:w-[280px] sm:h-40">
-                <img src={W4} alt="Friendly Support" className="w-12 h-12 mb-4" />
+                <img src="/assets/why-choose-us/w4.webp" alt="Friendly Support" className="w-12 h-12 mb-4" />
                 <h3 className="text-base sm:text-lg font-semibold text-[#221e1f]">Friendly Support</h3>
               </div>
             </div>
@@ -480,15 +435,15 @@ export default function Home() {
       {/* CTA */}
       <section
         className="w-full bg-cover bg-center bg-no-repeat py-10 sm:py-12 md:py-5 mt-6 md:mt-8"
-        style={{ backgroundImage: `url(${BG_CTA})` }}
+        style={{ backgroundImage: `url("/assets/cta1.webp")` }}
       >
-        <div className="max-w-[1140px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between text-white text-center md:text-left gap-6 md:gap-8">
+        <div className="max-w-[1140px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-start md:items-center justify-between text-white text-left gap-6 md:gap-8">
           {/* Text content */}
-          <div className="flex flex-col items-center md:items-start">
-            <h2 className="text-2xl sm:text-3xl md:text-[36px] font-bold mb-2 leading-snug">
+          <div className="flex flex-col items-start">
+            <h2 className="text-[36px] font-bold mb-2 leading-snug">
               Get Free Mockups and SEO Report
             </h2>
-            <p className="text-sm sm:text-base md:text-[18px] max-w-[500px]">
+            <p className="text-[18px] max-w-[500px]">
               We offer a variety of IT services designed to support your success.
             </p>
           </div>
@@ -544,7 +499,7 @@ export default function Home() {
           </h2>
 
           <img
-            src={Process}
+            src="/assets/process-flow.webp"
             alt="Process Flow"
             className="aspect-30/9"
           />
@@ -556,8 +511,8 @@ export default function Home() {
 
       <section
         className="w-full md:mt-8 mb-16 bg-cover bg-top bg-no-repeat place-content-center"
-        style={{ backgroundImage: `url(${BG_CTA})` }}>
-        <div className="max-w-[1140px] mx-auto px-4 sm:px-6 py-8 md:py-0 flex flex-col md:flex-row items-center justify-between text-white text-center md:text-left gap-6">
+        style={{ backgroundImage: `url("/assets/cta1.webp")` }}>
+        <div className="max-w-[1140px] mx-auto px-4 sm:px-6 md:px-2 py-8 md:py-6 lg:py-12 xl:py-0 flex flex-col md:flex-row items-center justify-between text-white text-center md:text-left gap-6">
 
           {/* Text content */}
           <div className="flex-1">
@@ -573,11 +528,11 @@ export default function Home() {
           </div>
 
           {/* Image */}
-          <div className="relative w-full sm:w-[320px] md:w-[380px] h-[220px] sm:h-[260px] md:h-[285px] flex justify-center md:justify-end">
+          <div className="relative w-full sm:w-[320px] md:w-[287px] lg:w-[380px] h-[220px] sm:h-[260px] md:h-[216px] lg:h-[245px] flex justify-center md:justify-end">
             <img
-              src={MAC_CTA}
+              src="/assets/macs-cta.webp"
               alt="Macs"
-              className="w-full h-full md:absolute md:-top-8 md:right-0 object-contain"
+              className="w-full h-full lg:h-[285px] md:absolute lg:-top-6 xl:-top-12 xl:right-0 object-contain"
             />
           </div>
         </div>
@@ -587,32 +542,15 @@ export default function Home() {
 
       {/* Testimonials Section */}
 
-      <section className="w-full bg-white py-3 md:mt-4">
-        <div className="max-w-[1140px] mx-auto text-center">
-          {/* Small blue heading with horizontal lines */}
-          <div className="flex items-center justify-center mb-4">
-            <span className="w-12 h-[3px] bg-[#1b75bb] mr-3 rounded-full"></span>
-            <span className="text-[#1b75bb] font-extrabold text-lg tracking-wider">
-              Testimonials
-            </span>
-            <span className="w-12 h-[3px] bg-[#1b75bb] ml-3 rounded-full"></span>
-          </div>
-          {/* Main heading */}
-          <h2 className="text-3xl md:text-4xl font-semibold text-[#221e1f] mb-12">
-            What Makes People Praise Us?
-          </h2>
-
-          <TestimonialsSlider />
-        </div>
-      </section>
+      <TestimonialsSection/>
 
 
       {/* Mac 2 CTA */}
 
       <section
         className="w-full md:mt-28 mb-16 bg-cover bg-top bg-no-repeat place-content-center"
-        style={{ backgroundImage: `url(${BG_CTA})` }}>
-        <div className="max-w-[1140px] mx-auto px-4 sm:px-2 py-8 md:py-3 flex flex-col md:flex-row items-center justify-between text-white text-center md:text-left gap-6">
+        style={{ backgroundImage: `url("/assets/cta1.webp")` }}>
+        <div className="max-w-[1140px] mx-auto px-4 sm:px-2 py-8 md:py-0 flex flex-col md:flex-row items-center justify-between text-white text-center md:text-left gap-8">
 
           {/* Text content */}
           <div className="flex-1">
@@ -628,11 +566,11 @@ export default function Home() {
           </div>
 
           {/* Image */}
-          <div className="relative w-full sm:w-[320px] md:w-[380px] h-[220px] sm:h-[260px] md:h-[285px] flex justify-center md:justify-end">
+          <div className="relative w-full sm:w-[320px] md:w-[270px] lg:w-[380px] h-[220px] sm:h-[260px] md:h-[260px] lg:h-[285px] flex justify-center md:justify-end">
             <img
-              src={MAC2_CTA}
+              src="/assets/mac2-cta.webp"
               alt="Mac2"
-              className="w-[200px] h-[250px] md:w-[284px] md:h-[358px] md:absolute md:-top-18 md:right-8 object-cover"
+              className="w-[200px] h-[250px] md:w-[248px] lg:w-[284px] md:h-[313px] lg:h-[358px] md:absolute md:-top-16 lg:-top-21 lg:right-8 object-cover"
             />
           </div>
         </div>

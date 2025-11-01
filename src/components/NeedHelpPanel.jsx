@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaPhoneAlt, FaEnvelope, FaCalendarAlt } from "react-icons/fa";
-import NeedHelp from "../assets/need-help.webp"
 import { IoCloseCircleOutline } from "react-icons/io5";
 
 export default function NeedHelpPanel() {
@@ -38,7 +37,7 @@ export default function NeedHelpPanel() {
       >
         {/* --- Logo Image --- */}
         <img
-          src={NeedHelp} // your imported image
+          src="/assets/need-help.webp" // your imported image
           alt="OOP Technologies Logo"
           className="min-w-[93px] object-contain rotate-270"
         />

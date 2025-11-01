@@ -3,31 +3,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import image_1 from "../assets/technology/1.webp";
-import image_2 from "../assets/technology/2.webp";
-import image_3 from "../assets/technology/3.webp";
-import image_4 from "../assets/technology/4.webp";
-import image_5 from "../assets/technology/5.webp";
-import image_6 from "../assets/technology/6.webp";
-import image_7 from "../assets/technology/7.webp";
-import image_8 from "../assets/technology/8.webp";
-import image_9 from "../assets/technology/9.webp";
-import image_10 from "../assets/technology/10.webp";
-import image_11 from "../assets/technology/11.webp";
-import image_12 from "../assets/technology/12.webp";
-import image_13 from "../assets/technology/13.webp";
-import image_14 from "../assets/technology/14.webp";
-import image_15 from "../assets/technology/15.webp";
-import image_16 from "../assets/technology/16.webp";
-import image_17 from "../assets/technology/17.webp";
-import image_18 from "../assets/technology/18.webp";
-import image_19 from "../assets/technology/19.webp";
+
 
 const Technologies = () => {
   const images = [
-    image_1, image_2, image_3, image_4, image_5, image_6, image_7,
-    image_8, image_9, image_10, image_11, image_12, image_13, image_14,
-    image_15, image_16, image_17, image_18, image_19,
+    "/assets/technology/1.webp", "/assets/technology/2.webp", "/assets/technology/3.webp", "/assets/technology/4.webp", "/assets/technology/5.webp", "/assets/technology/6.webp", "/assets/technology/7.webp","/assets/technology/8.webp", "/assets/technology/9.webp", "/assets/technology/10.webp", "/assets/technology/11.webp", "/assets/technology/12.webp", "/assets/technology/13.webp", "/assets/technology/14.webp","/assets/technology/15.webp", "/assets/technology/16.webp", "/assets/technology/17.webp", "/assets/technology/18.webp", "/assets/technology/19.webp",
   ];
 
   const settings = {

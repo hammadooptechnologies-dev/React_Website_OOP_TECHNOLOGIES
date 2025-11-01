@@ -1,0 +1,485 @@
+{
+  "nft-websites": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Boost Your Business Profitability with Our Exceptional NFT Web Development Solutions",
+      "paragraphs": [
+        "Our team of developers has extensive experience in creating NFT websites and marketplaces. We have the technical expertise to create a platform that is secure, reliable, and user-friendly. We understand that each business or individual has unique requirements when it comes to NFTs. That's why we offer customized solutions that cater to your specific needs.",
+        "We offer affordable NFT website solutions that cater to businesses and individuals of all sizes. We believe that everyone should have access to the latest technologies, regardless of their budget. We provide ongoing support to ensure that your NFT website is running smoothly and efficiently. We are always available to answer any questions or concerns that you may have."
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "ai-websites": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Our AI development offers you the tools you need to succeed!",
+      "paragraphs": [
+        "We are your way forward! Our AI development services can increase the productivity of your business and reduce operational costs. In fact, by automating routine tasks, you can focus on your business’s more strategic activities that add greater value to it. In addition, we can also help you minimize the risk of human error. After all, artificial intelligence improves accuracy and ensures reliable results. So why not reduce the manual work and let artificial intelligence step up your game? Moreover, our AI-powered solutions provide clients with deeper insights into their data. Therefore, enabling you to make informed decisions quickly. Also, our algorithms can analyze vast amounts of data to identify trends, predict future outcomes, and optimize processes. Besides, the insights we provide will help your businesses stay ahead of the competitors. You will be making data-driven decisions as a result of our AI development services.",
+        "Therefore, if you want significant cost savings, you must let us automate your business with the right AI solution. Our AI development company can help you:"
+      ],
+      "icons": [
+        { "icon": "FaSortAmountDown", "text": "Reduce interruption" },
+        { "icon": "FaBraille", "text": "Modernize processes" },
+        { "icon": "FaLevelUpAlt", "text": "Get data-first upgrading" }
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "blockchain-websites": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Bring your project to life with our blockchain development services!",
+      "paragraphs": [
+        "We are the industry standard setters when it comes to developing blockchain. After all, we are committed to staying at the forefront of the blockchain and cryptocurrency industries. Furthermore, our team of developers is constantly learning and improving. Unlike any other blockchain app development company, we keep your satisfaction as our first and foremost priority. That means, we do not cut corners during the development. And we handle your project with proper care and capability.",
+        "Most importantly, our goal is to continue delivering cutting-edge solutions that meet our clients' needs and exceed their expectations. Thus, there is no stone that we leave unturned while handling a blockchain project. So, if you are looking for a reliable and experienced professional, hire blockchain developer from our company. You will find us eager to assist you in bringing your blockchain and cryptocurrency projects to life."
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "php-development": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Custom PHP Web Development Will Make Your Business Grow!",
+      "paragraphs": [
+        "You should definitely hire us for our custom PHP development services if your business is struggling with sales and needs a better functioning website. We can help you increase interactivity on your business site and bring innovation to your digital presence with our excellent service skills. In fact, PHP is the best option among the rest when it comes to developing websites that bring above-board outcomes. Moreover, unlike any other custom PHP development company, we have a long track record of satisfying clients by taking care of all their needs and preferences. That’s right! We always work per the client guidelines and never stray from assigned instructions to deliver you outcomes you desire. You can easily rely on us to provide you with full value for your money. The following are some ways PHP development can benefit your business:"
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+  "custom-software-development": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Let our Custom software development company design your online platform!",
+      "paragraphs": [
+        "At our company, we pride ourselves on our ability to deliver custom software solutions that exceed our clients' expectations. In fact, we work hard to ensure that our software solutions are not only functional but also aesthetically pleasing. Plus, the software we design is always easy to use. So, you can rely on us to custom-create software that is user-friendly and perfect in every single aspect. After all, no other company can have us beat in customized software development. We take care of even the most subtle details to provide you full value for your money. What’s more, you will find our team fully dedicated to your project"
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "frontend-development": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Our Frontend Development Company outshines competition",
+      "paragraphs": [
+        "At OOP technologies, we make the best websites. In fact, our websites are fast, functional, and optimized. We even use the latest framework for development. In addition, we collaborate closely with our clients. That means we take time to understand your business and development needs. Because of this, we provide exceptional solutions to you. Ours is simply the most leading frontend company in the industry. After all, we pay proper attention to detail during the development. Furthermore, our main service goal is to provide the highest level of service and support. What sets us apart is our reputation for delivering exceptional results on time and within budget. It is our top priority to keep our clients happy with our help. So, are you looking for a reliable, experienced and innovative frontend company? If so, we can help take your business to the next level. Besides, It will be our honor to work with you and help bring your vision to life. You should hire dedicated frontend developers from our company if you want maximum revenue for your business."
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "drupal-development": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Ours is a leading name for custom Drupal development!",
+      "paragraphs": [
+        "At OOP Technologies, we are passionate about bringing growth to your business. Thus, we provide readable and error-free code structure. In fact, no one can outdo us in custom Drupal development. We have a long track record of Drupal customization and development projects. In fact, we are your go-to for flawless Drupal development solutions. Lastly, we have a gleaming reputation in the industry. Our dedication towards client satisfaction is the magic behind our glowing and growing testimonials and clientele. We are capable of designing websites that are easy to use. And our developed websites are more effective than most as well. Moreover, we are creative and innovative. That means your business will stay successful through our ingenious development. No other custom Drupal development company can match our service standards. Furthermore, our policies and perks are centered around client ease. Thus, you can rely on us to provide efficient and cost-effective solutions."
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "backend-development": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Our Backend Development Company Is the Standard-Setter Among Competition!",
+      "paragraphs": [
+        "OOP technologies is a name known for crafting custom-made stellar websites. Well, it seems only fair, after all the dedication we put in client projects. So, hire backend developers from our company if you want a fast and functional website. What’s more, we use only the latest frameworks for development. And we always actively communicate with the clients. After all, this helps us understand your business and development needs. You can rely on us to provide you exceptional solutions at a fair price and within your assigned deadline. For us, development is a passion turned profession.",
+        "So, we are always delighted to help clients with their development needs. Plus, the main focus and goal behind our backend development services is to provide the highest level of service and support. Undoubtedly, our working standards have set us apart from the competition. So, you will end up with a big smile adorning your face if you let us assist you. This client satisfaction is the magic that grows our clientele and grows our testimonials. After all, we let nothing go amiss in the work we do for you. So, are you looking to hire backend developer? If so, we can take your business to the better heights. You will find us reliable, experienced and innovative. We can easily bring your vision to life. And we can surpass any expectations you might have.",
+        "In fact, we have a long track record of helping businesses grow through better build websites. The website we design will have higher conversion, will generate more revenue, and will maximize your business sales."
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "laravel-development": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Why us as your Laravel development company?",
+      "paragraphs": [
+        "OOP Technologies is one of the top names in the industry. We have been providing Laravel development services for years now. Thus, we are experienced and skilled to provide you with the most practical solutions. Moreover, we have a long list of clienteles. That means, we have worked for businesses of almost all types. So, you can trust us to handle your project with care and capability. After all, we are the masters of Laravel development. And we are aware of all the aspects that go into it. Undoubtedly, we can chalk out for you a site that is result-driving and eye-catching. Besides, you can check our ever-growing and glowing testimonial to see that we value client satisfaction above everything. Therefore, if you need exceptionally coded Laravel solutions, our Laravel development company is the one-stop solution for you."
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "node-js-development": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Top-pick Node JS development company you can trust!",
+      "paragraphs": [
+        "At OOP Technologies, Node JS custom theme development is a passion-turned-profession. With years of experience in the industry, we have perfected our knowledge and work-proven solutions to create unique and effective websites that drive sales for your business. Besides, our dedication to our craft means that we take pride in our work and are committed to exceeding your expectations. Plus, we understand Node JS technology better than anyone else in the industry. Our years of experience and track record of success have made us the go-to experts on Node JS development services. What’s more, our Node JS solutions are effective, visually appealing, and user-friendly. Thus, we can work wonders for your business."
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "ios-development": {
+    "layout": "60_40",
+    "left": {
+      "heading": "We take care of all your iOS app development needs!",
+      "paragraphs": [
+        "At our company, we take a unique approach to every mobile initiative. Thus, we leverage native software technologies and a team of experienced iOS app developers. In fact, we provide a suite of scalable, secure, robust, and innovative iOS mobile app development services to our clients. Moreover, we cover the entire development cycle, from concept to deployment. Undoubtedly, our goal is to deliver custom iOS products that are tailored to your specific needs. Plus, we build an app that is accessible and functional over different devices:"
+      ],
+      "icons": [
+        { "icon": "IoPhonePortraitOutline", "text": "iPhone" },
+        { "icon": "FaTabletAlt", "text": "iPad" },
+        { "icon": "FaTv", "text": "TVOS" },
+        { "icon": "IoWatchOutline", "text": "WatchOS" }
+
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "game-development": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Your go-to game development company for desired outcomes!",
+      "paragraphs": [
+        "Our team of skilled developers creates highly engaging and entertaining. In fact, those games are not only addictive but also incredibly fun to play. Games that hook players from the get-go. For instance, sort of games that provide players with a challenging yet satisfying experience. Moreover, we do thorough research and testing to ensure the standards of our game development services. From the initial concept to the final product, our team works effortlessly and dedicatedly. Thus, our games are both engaging and enjoyable. Also, we take pride in our ability to create games that keep players coming back for more. After all, we design these games with players in our mind. User-experience is always at the forefront of our success. Therefore, the games we develop are easy to understand and navigate. Still, they are complex enough to keep the players engaged. Additionally, we also value feedback from our clients. And we consistently work to improve the games based on their specifications. Furthermore, we are constantly innovating and refining our games to provide the best possible experience to the players."
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "android-development": {
+    "layout": "60_40",
+    "left": {
+      "heading": "We take care of all your android app development needs!",
+      "paragraphs": [
+        "Our android app development company utilizes a unique approach for each mobile initiative. We are leveraging native software technologies and an experienced team of android app developers. We offer scalable, secure, robust, and innovative android mobile app development to our clients. Thus, covering the entire development cycle from concept to deployment. In fact, our goal is to deliver custom android products tailored to our clients' specific needs. So, we ensure accessibility and functionality across different devices.",
+        "Thus, ensuring our clients' apps are up-to-date, optimized for performance, scalability, and security. Furthermore, we provide personalized attention and support throughout the development process. After all, we believe that every project is unique."
+      ],
+      "icons": [
+        { "icon": "IoPhonePortraitOutline", "text": "Mobile Phones" },
+        { "icon": "FaTabletAlt", "text": "Tablets" },
+        { "icon": "FaTv", "text": "Smart TVs" },
+        { "icon": "IoWatchOutline", "text": "Smart Watches" }
+
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "vr-app-development": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Why OOP Technologies for VR app development?",
+      "paragraphs": [
+        "Aside from the fact that our main goal is to help you get ahead in the VR market, we have so many perks associated with our custom VR app development services. Moreover, we have excellent policies at play. These policies are all centered around the benefits of our clients. The following are some reasons as to why we one-up the rest of the competition:"
+      ],
+      "points": [
+  {
+    "icon": "FaCheck",
+    "title": "Topnotch Development",
+    "paragraph": "Trust us when we say that we are the service experts! Our VR specialists have a multidimensional range that lets them come up with the most accurate VR app development solution for your business project. Besides, we are experts and know how to incorporate VR.",
+    "iconDivClass": "w-12 h-12 border border-[#1b75bb] rounded-full",
+    "iconClass": "text-[#1b75bb] text-[20px] px-10",
+    "titleClass": "text-[#231f20] font-semibold text-base mb-2"
+  },
+  {
+    "icon": "FaCheck",
+    "title": "Cooperation flexibility",
+    "paragraph": "Unlike any other VR app development company, we keep our clients hands-on in the project they assign us. Besides, this open and flexible flow of conversion helps us deliver a project that is designed for your demands and needs. Moreover, our service is thoroughly flexible.",
+    "iconDivClass": "w-12 h-12 border border-[#1b75bb] rounded-full",
+    "iconClass": "text-[#1b75bb] text-[20px] px-10",
+    "titleClass": "text-[#231f20] font-semibold text-base mb-2"
+  },
+  {
+    "icon": "FaCheck",
+    "title": "Service experience",
+    "paragraph": "We have years-long experience to our name. We have worked with so many clients in the past. Thus, we understand the service needs of a multiple range of industries when it comes to VR development. Our clientele and testimonials are always glowing and growing.",
+    "iconDivClass": "w-12 h-12 border border-[#1b75bb] rounded-full",
+    "iconClass": "text-[#1b75bb] text-[20px] px-10",
+    "titleClass": "text-[#231f20] font-semibold text-base mb-2"
+  },
+  {
+    "icon": "FaCheck",
+    "title": "Advanced optimization",
+    "paragraph": "Our custom VR app development company has a reputation for its excellence in the industry. Certainly, we develop the most efficient and high-functioning VR models for the clients. We understand that the VR applications’ performance depends on the hardware.",
+    "iconDivClass": "w-12 h-12 border border-[#1b75bb] rounded-full",
+    "iconClass": "text-[#1b75bb] text-[20px] px-10",
+    "titleClass": "text-[#231f20] font-semibold text-base mb-2"
+  }
+]
+
+    },
+    "right": {
+      "images": [
+        { "src": "/assets/vr-dev.webp", "alt": "VR-DEV" }
+      ],
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "brand-identity": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Our brand identity agency is your way up in the market!",
+      "paragraphs": [
+        "Undoubtedly, a professional brand identity can help businesses establish a strong brand presence in the market. It can easily help attract new customers while retaining the existing ones. In fact, even just a well-designed logo and other visual elements can help businesses stand out from their competitors. Unlike any other brand identity advertising agency, we have a knack for helping businesses stay in touch with their targeted audiences.",
+        "Therefore, we can take up your brand loyalty game with ease. In addition, we can bring you more customer engagement by imaging your brand the way they want. So, you can rely on us to build you a strong market presence. After all, our expertise in design and branding are unmatched by the competition. We are the standard setters for all."
+      ],
+      "icons": [
+        { "icon": "SiGoogledrive", "text": "Logo Design" },
+        { "icon": "FaScroll", "text": "Package Design" },
+        { "icon": "FaVolumeUp", "text": "Promotional Item Design" }
+
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "ui-ux-design": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Let our UI UX design agency handle your project!",
+      "paragraphs": [
+        "Throughout the design process, we place a strong emphasis on user testing and feedback. Our UI/UX design and development services are truly remarkable. Besides, we get valuable insights involving user perspective in the process. We keep checking on how they interact with our designs. Ultimately, this helps us improve our designs. Our designs are highly effective. Therefore, we meet both the needs of our clients and users. Furthermore, we have worked for a variety of businesses. Thus, we can easily deliver custom UI/UX solutions. At our UI UX design agency, we pride ourselves on our commitment to quality and customer satisfaction. We are dedicated to delivering projects on time and on budget.",
+        "In conclusion, our UI/UX design services company is passionate about creating exceptional digital experiences. Our goal is to meet the needs of our clients and their users. Thus, we keep our focus on research, creativity, and user feedback. Moreover, the custom UI/UX solutions we deliver are both beautiful and highly functional. Besides, our main service aim is to help you succeed in the digital world. What’s more, we never sacrifice the quality of our work. Because we believe in building long-term relationships with our clients, we work closely with them to ensure that their needs are always met."
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "shopify": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Our Shopify store development service will make a difference!",
+      "paragraphs": [
+        "If you are looking to create or enhance your online store, we are the best pick you have. After all, we have a long list of satisfied clientele. And we would love to add your name to this list. First, we have astounding experience and expertise. Therefore, you can trust that our team of developers is well-versed. We are aware of all aspects regarding Shopify development services. We can create custom designs and develop custom functionalities with ease. You can rely on us to create a unique online store that meets your business needs. What’s more, our outcomes are always aligned with client expectations, demands, and needs. Additionally, our assistance is time-saving and cost-effective. Plus, we do not shy away from providing ongoing support and maintenance. Most importantly, we run a quality control process before we deliver you the final product. All in all, we can help you grow your business and your product line bloom."
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "opencart": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Why OOP Technologies for VR app development?",
+      "paragraphs": [
+        "Aside from the fact that our main goal is to help you get ahead in the VR market, we have so many perks associated with our custom VR app development services. Moreover, we have excellent policies at play. These policies are all centered around the benefits of our clients. The following are some reasons as to why we one-up the rest of the competition:"
+      ],
+      "points": [
+  {
+    "icon": "FaLaptopCode",
+    "title": "OpenCart Shopping Cart Redesign",
+    "paragraph": "We can redesign your old platform. After all, we are skilled service providers",
+    "iconDivClass": "rounded-full",
+    "iconClass": "text-[#221e1f] text-[50px] ",
+    "maindivgap": "gap-3",
+    "titleClass": "text-[#221e1f] font-extrabold text-base mb-2"
+  },
+  {
+    "icon": "FaSignal",
+    "title": "OpenCart Customization Development",
+    "paragraph": "With our help, your platform will look unique and stand apart from the competition",
+    "iconDivClass": "rounded-full",
+    "iconClass": "text-[#221e1f] text-[50px] ",
+    "maindivgap": "gap-3",
+    "titleClass": "text-[#221e1f] font-extrabold text-base mb-2"
+  },
+  {
+    "icon": "FaSuitcase",
+    "title": "OpenCart Web App Development",
+    "paragraph": "A Web App is now a necessity for business. Thus, we build high-functioning ones",
+    "iconDivClass": "rounded-full",
+    "iconClass": "text-[#221e1f] text-[50px] ",
+    "maindivgap": "gap-3",
+    "titleClass": "text-[#221e1f] font-extrabold text-base mb-2"
+  },
+  {
+    "icon": "FaSynagogue",
+    "title": "OpenCart E-commerce Development",
+    "paragraph": "You can get your own ecommerce website backed by our skills and expertise",
+    "iconDivClass": "rounded-full",
+    "iconClass": "text-[#221e1f] text-[50px] ",
+    "maindivgap": "gap-3",
+    "titleClass": "text-[#221e1f] font-extrabold text-base mb-2"
+  },
+  {
+    "icon": "FaThList",
+    "title": "OpenCart Templates & Themes Integration",
+    "paragraph": "We can customize the theme of your OpenCart site for most impressive layout",
+    "iconDivClass": "rounded-full",
+    "iconClass": "text-[#221e1f] text-[45px] ",
+    "maindivgap": "gap-3",
+    "titleClass": "text-[#221e1f] font-extrabold text-base mb-2"
+  }
+]
+
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "magento": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Get Unmatched Magento Development per your liking!",
+      "paragraphs": [
+        "OOP Technologies is simply the top name in the industry for high-class Magento ecommerce development. We are the top-class service providers because our team of experts are passionate about the work. Simply, we love turning the client's visions into reality. What’s more, we are aware of all the ongoing techniques and development in the field. Therefore, we can easily take your product line towards the targeted audience and take your business towards impressive growth. After all, we have a long track record of managing Magento ecommerce projects of clients with similar businesses. Besides, the entirety of our focus is to deliver you full value for your money. Thus, with our help, you will stand out in the crowded marketplace."
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "woocommerce": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Step up your business with our WooCommerce Development services!",
+      "paragraphs": [
+        "Our company specializes in providing custom WooCommerce development. Thus, hire WooCommerce developers from our company if you want to stand out from the competition. After all, millions of websites use WooCommerce now. Therefore, you need skilled experts to custom-built the site for you. We have years of experience. We are capable of working with open-source and SaaS platforms. Hence, we are a reliable provider of the best eCommerce solutions worldwide. Besides, We understand the importance of having an integrated shopping cart solution that can be easily customized to meet business owners' needs. Simply put, we have mastered the art of WooCommerce development. So, we can build future-proof online stores for you."
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+  "wordpress": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Get Unmatched Custom WordPress Development per your liking!",
+      "paragraphs": [
+        "We have the top Custom WordPress Developers aboard our team to personalize your site as per your requirements. We have been in the industry for years, and we have the perfect know-how needed to get you outcomes you seek. Moreover, our developers are skilled to digitalize your business through custom and impressive designs. In fact, by the time we will be done, you are sure to have a website that catches attention and improves your business visibility."
+      ],
+      "points": [
+  {
+    "icon": "FaLaptopCode",
+    "title": "WordPress Custom Development",
+    "paragraph": "Custom-designed themes that look fantastic on any screen or device. Website Design Engine Digital themes are also blazing fast thanks to asset and image management that has been optimised.",
+    "iconDivClass": "rounded-full",
+    "iconClass": "text-[#221e1f] text-[50px] ",
+    "maindivgap": "gap-3",
+    "titleClass": "text-[#221e1f] font-extrabold text-base mb-2"
+  },
+  {
+    "icon": "FaSignal",
+    "title": "WordPress Plugin Development",
+    "paragraph": "Website Design Engine Digital can offer the functionality you need to get the most out of your website's potential, thanks to their experience producing popular and commercial plugins.",
+    "iconDivClass": "rounded-full",
+    "iconClass": "text-[#221e1f] text-[50px] ",
+    "maindivgap": "gap-3",
+    "titleClass": "text-[#221e1f] font-extrabold text-base mb-2"
+  },
+  {
+    "icon": "FaSuitcase",
+    "title": "API Integrations",
+    "paragraph": "Other business tools, such as CRMs, marketing automation systems, job boards, and so on, may require WordPress integration.",
+    "iconDivClass": "rounded-full",
+    "iconClass": "text-[#221e1f] text-[50px] ",
+    "maindivgap": "gap-3",
+    "titleClass": "text-[#221e1f] font-extrabold text-base mb-2"
+  }
+]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "seo-search-engine-optimization": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Let our UI UX design agency handle your project!",
+      "paragraphs": [
+        "Throughout the design process, we place a strong emphasis on user testing and feedback. Our UI/UX design and development services are truly remarkable. Besides, we get valuable insights involving user perspective in the process. We keep checking on how they interact with our designs. Ultimately, this helps us improve our designs. Our designs are highly effective. Therefore, we meet both the needs of our clients and users. Furthermore, we have worked for a variety of businesses. Thus, we can easily deliver custom UI/UX solutions. At our UI UX design agency, we pride ourselves on our commitment to quality and customer satisfaction. We are dedicated to delivering projects on time and on budget.",
+        "In conclusion, our UI/UX design services company is passionate about creating exceptional digital experiences. Our goal is to meet the needs of our clients and their users. Thus, we keep our focus on research, creativity, and user feedback. Moreover, the custom UI/UX solutions we deliver are both beautiful and highly functional. Besides, our main service aim is to help you succeed in the digital world. What’s more, we never sacrifice the quality of our work. Because we believe in building long-term relationships with our clients, we work closely with them to ensure that their needs are always met."
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "smm-social-media-marketing": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Our professional SMM services are your way forward!",
+      "paragraphs": [
+        "By working with us, you can focus on running your business while we handle your social media marketing. Our social media marketing agency is renowned for driving results and handling creative campaigns. Undoubtedly, our team will help you create visually appealing content. In addition to this, we will leverage social media advertising for you. Most importantly, we will engage with your followers to make your business grow. Our approach is to create a strong brand identity that resonates with your target audience. Therefore, we'll help you develop a consistent voice and messaging that reflects your business values and goals. Besides, we’ll provide regular updates on your social media performance. This will include analytics and insights that help you make informed decisions about your social media strategy. With our social media marketing services, you can expect to see a significant return on investment and increased business growth."
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  },
+
+  "sem-ppc": {
+    "layout": "60_40",
+    "left": {
+      "heading": "Drive results with our PPC services!",
+      "paragraphs": [
+        "At our SEM services company, we are dedicated to providing our clients with the best possible results. We achieve this by utilizing data-driven strategies, customized campaigns, and continuous optimization. Additionally, we understand that each business has unique goals and needs, and that's why we take a personalized approach to each campaign. Our team of experts ensure that we are creating effective campaigns that reach their ideal customers.",
+        "What sets us apart from other agencies is our commitment to continuous optimization. We are constantly testing and analyzing our campaigns to ensure that we are delivering the best possible ROI for our clients. Most importantly, our goal is to help our clients achieve their business goals by driving website traffic, generating leads, and increasing sales. At our agency, we believe that our success is tied to the success of our clients. Hence, we are dedicated to helping them grow and succeed."
+      ]
+    },
+    "right": {
+      "type": "quotationForm",
+      "bgImage": "/assets/Form-BG.webp"
+    }
+  }
+}

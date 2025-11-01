@@ -28,7 +28,6 @@ import {
   FaRegEnvelopeOpen,
   FaArrowAltCircleRight,
 } from "react-icons/fa";
-import NeedHelp from "../assets/need-help.webp"
 
 
 export default function Footer() {
@@ -69,7 +68,7 @@ export default function Footer() {
         {/* ---------- About Section ---------- */}
         <div>
           <img
-            src={NeedHelp} // your imported image
+            src="/assets/need-help.webp"// your imported image
             alt="OOP Technologies Logo"
             className="w-[190px] object-contain"
           />
