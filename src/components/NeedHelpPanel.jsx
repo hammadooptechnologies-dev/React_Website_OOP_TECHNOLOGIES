@@ -7,7 +7,7 @@ export default function NeedHelpPanel() {
 
   return (
     <div
-      className={`fixed bottom-1/7 -left-73 z-40 -translate-y-1/2 flex items-center transition-all duration-500 ${isOpen ? "translate-x-[291px]" : "translate-x-0"
+      className={`fixed bottom-1/7 -left-73 z-40 -translate-y-1/2  flex items-center transition-all duration-500 ${isOpen ? "translate-x-[291px]" : "translate-x-0"
         }`}
     >
 

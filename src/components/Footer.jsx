@@ -1,23 +1,3 @@
-// import React from 'react'
-
-// const Footer = () => {
-//   return (
-//    <footer className="bg-gray-900 text-gray-300 py-8 mt-auto">
-//         <div className="max-w-6xl mx-auto text-center px-6">
-//           <p className="text-lg font-semibold">PetrolEquip</p>
-//           <p className="mt-2 text-sm">© 2025 PetrolEquip. All rights reserved.</p>
-//           <div className="mt-4 space-x-4">
-//             <a href="#" className="hover:text-white">Privacy Policy</a>
-//             <a href="#" className="hover:text-white">Terms</a>
-//             <a href="#" className="hover:text-white">Contact</a>
-//           </div>
-//         </div>
-//       </footer>
-//   )
-// }
-
-// export default Footer
-
 import React from "react";
 import { useState } from "react";
 import {

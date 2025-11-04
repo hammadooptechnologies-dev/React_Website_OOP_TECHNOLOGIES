@@ -41,7 +41,7 @@ const Technologies = () => {
             <img
               src={img}
               alt={`Technology ${i + 1}`}
-              className="object-contain mx-auto max-w-[80px] sm:max-w-[100px] md:max-w-[110px] max-h-[60px] sm:max-h-[70px] md:max-h-[100px]"
+              className="object-contain mx-auto max-w-20 sm:max-w-[100px] md:max-w-[110px] max-h-[60px] sm:max-h-[70px] md:max-h-[100px]"
               loading="lazy"
             />
           </div>

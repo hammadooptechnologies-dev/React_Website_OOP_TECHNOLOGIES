@@ -101,15 +101,9 @@ export default function Home() {
       </div>
 
 
-
-      {/* <div className="relative overflow-hidden">
-        <NeedHelpPanel />
-      </div> */}
-
-
       {/* Our Clients Section */}
 
-      <section className="w-full bg-white py-10 mt-[200px] sm:mt-[250px] md:mt-20">
+      <section className="w-full bg-white py-10 mt-[300px] sm:mt-[250px] md:mt-20">
         <div className="max-w-[1140px] mx-auto text-center">
           {/* Small blue heading with horizontal lines */}
           <div className="flex items-center justify-center mb-4">

@@ -73,7 +73,7 @@ export default function ServiceSection({ section }) {
       : "md:grid-cols-[55%_45%]";
 
   return (
-    <section className={`bg-white mb-10 md:mb-0 ${layout === "with-heading" ? "py-4" : "py-6"} px-6`}>
+    <section className={`bg-white mb-10 md:mb-0 ${layout === "with-heading" ? "py-4" : "py-12"} px-6`}>
       {/* ✅ Render left/right block layout only if they exist */}
       {(hasLeft || hasRight) && (
         <div
