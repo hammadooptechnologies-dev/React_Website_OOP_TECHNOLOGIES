@@ -1,18 +1,29 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import mac2CtaData from "../data/mac2CtaData.json";
+
+
+const Mac2_URL =
+  "https://raw.githubusercontent.com/hammadooptechnologies-dev/React_Website_OOP_TECHNOLOGIES_1/main/mac2CtaData.json";
 
 const Mac2CtaSection = ({ slug }) => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    if (mac2CtaData[slug]) {
-      setData(mac2CtaData[slug]);
-    } else {
-      // fallback if slug not found
-      setData(mac2CtaData["nft-development"]);
-    }
-  }, [slug]);
+      const fetchMacCtaData = async () => {
+        try {
+          const res = await fetch(Mac2_URL);
+          const data = await res.json();
+          if (data[slug]) {
+            setData(data[slug]);
+          } else {
+            setData(data["nft-websites"]);
+          }
+        } catch (error) {
+          console.error("Error fetching Mac CTA Sections data:", error);
+        }
+      };
+      fetchMacCtaData();
+    }, [slug]);
 
   if (!data) return null;
 

@@ -9,7 +9,7 @@ export const fetchMegaMenuData = async () => {
   }
 
   const url =
-    "https://my-json-server.typicode.com/hammadooptechnologies-dev/React_Website_OOP_TECHNOLOGIES/db";
+    "https://raw.githubusercontent.com/hammadooptechnologies-dev/React_Website_OOP_TECHNOLOGIES/main/db.json";
 
   try {
     console.log("🌐 Fetching Mega Menu data...");
