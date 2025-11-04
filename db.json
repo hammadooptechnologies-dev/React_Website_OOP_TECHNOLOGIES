@@ -1,40 +1,40 @@
 {
   "categories": {
     "NFT, Blockchain & AI Website": [
-      { "name": "NFT Websites", "icon": "FaEthereum", "size": "22px", "slug": "nft-websites" },
-      { "name": "Blockchain Websites", "icon": "FaEthereum", "size": "22px", "slug": "blockchain-websites" },
-      { "name": "AI Websites", "icon": "FaRobot", "size": "22px", "slug": "ai-websites" }
+      { "name": "NFT Websites", "icon": "FaEthereum", "size": "35px", "slug": "nft-websites" },
+      { "name": "Blockchain Websites", "icon": "FaEthereum", "size": "35px", "slug": "blockchain-websites" },
+      { "name": "AI Websites", "icon": "FaRobot", "size": "35px", "slug": "ai-websites" }
     ],
     "Website Development": [
-      { "name": "PHP Development", "icon": "FaPhp", "size": "22px", "slug": "php-development" },
-      { "name": "Custom Software Development", "icon": "FaCode", "size": "22px", "slug": "custom-software-development" },
-      { "name": "Frontend Development", "icon": "FaReact", "size": "22px", "slug": "frontend-development" },
-      { "name": "Drupal Development", "icon": "SiDrupal", "size": "22px", "slug": "drupal-development" },
-      { "name": "Backend Development", "icon": "FaServer", "size": "22px", "slug": "backend-development" },
-      { "name": "Laravel Development", "icon": "FaLaravel", "size": "22px", "slug": "laravel-development" },
-      { "name": "Node Js Development", "icon": "FaNodeJs", "size": "22px", "slug": "node-js-development" }
+      { "name": "PHP Development", "icon": "FaPhp", "size": "35px", "slug": "php-development" },
+      { "name": "Custom Software Development", "icon": "FaCode", "size": "35px", "slug": "custom-software-development" },
+      { "name": "Frontend Development", "icon": "FaReact", "size": "35px", "slug": "frontend-development" },
+      { "name": "Drupal Development", "icon": "SiDrupal", "size": "35px", "slug": "drupal-development" },
+      { "name": "Backend Development", "icon": "FaServer", "size": "35px", "slug": "backend-development" },
+      { "name": "Laravel Development", "icon": "FaLaravel", "size": "35px", "slug": "laravel-development" },
+      { "name": "Node Js Development", "icon": "FaNodeJs", "size": "35px", "slug": "node-js-development" }
     ],
     "Mobile App Development": [
-      { "name": "IOS Development", "icon": "FaApple", "size": "22px", "slug": "ios-development" },
-      { "name": "Game Development", "icon": "FaGamepad", "size": "22px", "slug": "game-development" },
-      { "name": "Android Development", "icon": "FaAndroid", "size": "22px", "slug": "android-development" },
-      { "name": "VR App Development", "icon": "FaVrCardboard", "size": "22px", "slug": "vr-app-development" }
+      { "name": "IOS Development", "icon": "FaApple", "size": "35px", "slug": "ios-development" },
+      { "name": "Game Development", "icon": "FaGamepad", "size": "35px", "slug": "game-development" },
+      { "name": "Android Development", "icon": "FaAndroid", "size": "35px", "slug": "android-development" },
+      { "name": "VR App Development", "icon": "FaVrCardboard", "size": "35px", "slug": "vr-app-development" }
     ],
     "Branding & Graphics": [
-      { "name": "Brand Identity", "icon": "FaPenNib", "size": "22px", "slug": "brand-identity" },
-      { "name": "UI & UX Design", "icon": "FaPaintBrush", "size": "22px", "slug": "ui-ux-design" }
+      { "name": "Brand Identity", "icon": "FaPenNib", "size": "35px", "slug": "brand-identity" },
+      { "name": "UI & UX Design", "icon": "FaPaintBrush", "size": "35px", "slug": "ui-ux-design" }
     ],
     "CMS Development": [
-      { "name": "Shopify", "icon": "FaShopify", "size": "22px", "slug": "shopify" },
-      { "name": "Opencart", "icon": "FaOpencart", "size": "22px", "slug": "opencart" },
-      { "name": "Magento", "icon": "FaMagento", "size": "22px", "slug": "magento" },
-      { "name": "Woocommerce", "icon": "SiWoocommerce", "size": "22px", "slug": "woocommerce" },
-      { "name": "WordPress", "icon": "FaWordpress", "size": "22px", "slug": "wordpress" }
+      { "name": "Shopify", "icon": "FaShopify", "size": "35px", "slug": "shopify" },
+      { "name": "Opencart", "icon": "FaOpencart", "size": "35px", "slug": "opencart" },
+      { "name": "Magento", "icon": "FaMagento", "size": "35px", "slug": "magento" },
+      { "name": "Woocommerce", "icon": "SiWoocommerce", "size": "35px", "slug": "woocommerce" },
+      { "name": "WordPress", "icon": "FaWordpress", "size": "35px", "slug": "wordpress" }
     ],
     "SEO/SMM/PPC": [
-      { "name": "SEO (Search Engine Optimization)", "icon": "FaSearch", "size": "22px", "slug": "seo-search-engine-optimization" },
-      { "name": "SMM (Social Media Marketing)", "icon": "FaBullhorn", "size": "22px", "slug": "smm-social-media-marketing" },
-      { "name": "SEM / PPC", "icon": "FaGoogle", "size": "22px", "slug": "sem-ppc" }
+      { "name": "SEO (Search Engine Optimization)", "icon": "FaSearch", "size": "35px", "slug": "seo-search-engine-optimization" },
+      { "name": "SMM (Social Media Marketing)", "icon": "FaBullhorn", "size": "35px", "slug": "smm-social-media-marketing" },
+      { "name": "SEM / PPC", "icon": "FaGoogle", "size": "35px", "slug": "sem-ppc" }
     ]
   },
   "buttons": [
