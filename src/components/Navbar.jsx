@@ -37,8 +37,8 @@ const Navbar = () => {
     { name: "Services", link: "#services", icon: <GoChevronDown /> },
     { name: "Portfolio", link: "/portfolio" },
     { name: "Company", link: "#company", icon: <GoChevronDown /> },
-    { name: "Hire a Developer", link: "#hireadeveloper" },
-    { name: "Contact", link: "#contact" },
+    { name: "Hire a Developer", link: "/hire-a-developer" },
+    { name: "Contact", link: "/contact" },
   ];
 
   // MegaMenu hover control
